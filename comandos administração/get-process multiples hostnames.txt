@@ -1,0 +1,2 @@
+$computers = "chi-hvr2","chi-dc01","chi-dc02","chi-dc04","chi-core01","chi-fp02","chi-web02"
+Invoke-Command -scriptblock {Get-Process | Sort CPU -descending | Select -first 5 } -computername $computers
