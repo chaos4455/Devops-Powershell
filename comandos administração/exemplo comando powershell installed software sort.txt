@@ -1,0 +1,7 @@
+Get-ChildItem -Path HKLM:SOFTWAREMicrosoftWindowsCurrentVersionUninstall |
+
+   Get-ItemProperty |
+
+   Sort-Object -Property DisplayName |
+
+   Select-Object -Property DisplayName, DisplayVersion, InstallLocation
