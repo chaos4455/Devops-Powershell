@@ -1,0 +1,42 @@
+#	
+# Notas
+#===========================================================================
+# Created with: 	Virtual Studio Code
+# Created on:   	26/01/2019 21:31
+# Created by:   	Chaos4455 	
+#===========================================================================
+# DESCRIÇÃO
+#	Este arquivo possui informações sobre variaveis no windows powershell
+############################################################################
+#
+#
+############################################################################
+
+registrar uma variavel chamado teste no objeto gps
+
+$teste = gps
+
+registra uma variavel A com o valor 1
+
+$A = 1
+
+registra uma variavel B com o valor 2
+
+$B = 2
+
+Soma $A + $B 
+
+$A + $B 
+
+registra uma variavel processos para o valor get-process
+
+$processos = get-process
+
+registra uma variavel chamada mataprocesso no comando get-process
+
+$mataprocesso = get-process processo
+
+$mataprocesso.kill()
+
+
+
