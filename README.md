@@ -6,13 +6,13 @@ Elias Andrade - 2019
 
 # Windows server + powershell - perfect devops tools
 
-![](https://cdn-images-1.medium.com/max/1200/1*6aiG8217Vy9kEpF5k9ag4Q.gif)
+![](http://www.thatlazyadmin.com/wp-content/uploads/2017/07/PowerShellBanner.png)
 
 ###DEVOPS
 
 Cultura DEVOPS:
 
-![](http://www.thatlazyadmin.com/wp-content/uploads/2017/07/PowerShellBanner.png)
+![](https://cdn-images-1.medium.com/max/2600/1*EBXc9eJ1YRFLtkNI_djaAw.png)
 
 > Implemente práticas DEVOPS de utomatização com powershell
 
