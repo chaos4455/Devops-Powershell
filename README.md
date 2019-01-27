@@ -1,21 +1,19 @@
-# Devops-Powershell
-Powershell devops sample scripts and recipes.
-###Images
+###Devops Powershell
 
-Image:
+Elias Andrade - 2019
 
-![](https://pandao.github.io/editor.md/examples/images/4.jpg)
+- Este reposítorio tem como propósito servidor de apoio e suporte na busca e centralização de informações utilizadas por mim no dia  a dia de trabalho dentro do ambiente windows e powershell
 
-> Follow your heart.
+# Windows server + powershell - perfect devops tools
 
-![](https://pandao.github.io/editor.md/examples/images/8.jpg)
+![](https://cdn-images-1.medium.com/max/1200/1*6aiG8217Vy9kEpF5k9ag4Q.gif)
 
-> 图为：厦门白城沙滩 Xiamen
+###DEVOPS
 
-图片加链接 (Image + Link)：
+Cultura DEVOPS:
 
-[![](https://pandao.github.io/editor.md/examples/images/7.jpg)](https://pandao.github.io/editor.md/examples/images/7.jpg "李健首张专辑《似水流年》封面")
+![](http://www.thatlazyadmin.com/wp-content/uploads/2017/07/PowerShellBanner.png)
 
-> 图为：李健首张专辑《似水流年》封面
-                
-----
+> Implemente práticas DEVOPS de utomatização com powershell
+
+![](https://crshnbrn66.files.wordpress.com/2016/05/devops-automation-service_logo.png?w=640)
