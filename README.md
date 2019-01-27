@@ -7,7 +7,6 @@ Elias Andrade - 2019
 # Windows server + powershell = perfect devops tools
 
 ![](http://www.thatlazyadmin.com/wp-content/uploads/2017/07/PowerShellBanner.png)
-<3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3
 
 Vamos automatizar!!! 
 
