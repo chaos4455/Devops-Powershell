@@ -1,0 +1,400 @@
+#	
+# Notas
+#===========================================================================
+# Created with: 	Virtual Studio Code
+# Created on:   	28/01/2019 00:28
+# Created by:   	Chaos4455 	
+#===========================================================================
+# DESCRIÇÃO
+#	Este arquivo possui uma lista de comandos do powershell 2013 windows 7 
+#
+############################################################################
+
+CommandType     Name                                               ModuleName
+-----------     ----                                               ----------
+Alias           Get-WindowsUpdate                                  PSWindowsUpdate
+Alias           Hide-WindowsUpdate                                 PSWindowsUpdate
+Alias           Install-WindowsUpdate                              PSWindowsUpdate
+Alias           Uninstall-WindowsUpdate                            PSWindowsUpdate
+Function        A:
+Function        Add-WUOfflineSync                                  PSWindowsUpdate
+Function        Add-WUServiceManager                               PSWindowsUpdate
+Function        B:
+Function        C:
+Function        cd..
+Function        cd\
+Function        Clear-Host
+Function        Configuration                                      PSDesiredStateConfiguration
+Function        D:
+Function        Disable-PSTrace                                    PSDiagnostics
+Function        Disable-PSWSManCombinedTrace                       PSDiagnostics
+Function        Disable-WSManTrace                                 PSDiagnostics
+Function        E:
+Function        Enable-PSTrace                                     PSDiagnostics
+Function        Enable-PSWSManCombinedTrace                        PSDiagnostics
+Function        Enable-WSManTrace                                  PSDiagnostics
+Function        F:
+Function        G:
+Function        Get-DscConfiguration                               PSDesiredStateConfiguration
+Function        Get-DscLocalConfigurationManager                   PSDesiredStateConfiguration
+Function        Get-DscResource                                    PSDesiredStateConfiguration
+Function        Get-FileHash                                       Microsoft.PowerShell.Utility
+Function        Get-IseSnippet                                     ISE
+Function        Get-LogProperties                                  PSDiagnostics
+Function        Get-Verb
+Function        Get-WUHistory                                      PSWindowsUpdate
+Function        Get-WUInstall                                      PSWindowsUpdate
+Function        Get-WUInstallerStatus                              PSWindowsUpdate
+Function        Get-WUList                                         PSWindowsUpdate
+Function        Get-WURebootStatus                                 PSWindowsUpdate
+Function        Get-WUServiceManager                               PSWindowsUpdate
+Function        Get-WUUninstall                                    PSWindowsUpdate
+Function        H:
+Function        help
+Function        Hide-WUUpdate                                      PSWindowsUpdate
+Function        I:
+Function        Import-IseSnippet                                  ISE
+Function        ImportSystemModules
+Function        Invoke-AsWorkflow                                  PSWorkflowUtility
+Function        Invoke-WUInstall                                   PSWindowsUpdate
+Function        J:
+Function        K:
+Function        L:
+Function        M:
+Function        mkdir
+Function        more
+Function        N:
+Function        New-DscCheckSum                                    PSDesiredStateConfiguration
+Function        New-IseSnippet                                     ISE
+Function        New-PSWorkflowSession                              PSWorkflow
+Function        O:
+Function        oss
+Function        P:
+Function        Pause
+Function        prompt
+Function        Q:
+Function        R:
+Function        Remove-WUOfflineSync                               PSWindowsUpdate
+Function        Remove-WUServiceManager                            PSWindowsUpdate
+Function        Restore-DscConfiguration                           PSDesiredStateConfiguration
+Function        S:
+Function        Set-LogProperties                                  PSDiagnostics
+Function        Start-Trace                                        PSDiagnostics
+Function        Stop-Trace                                         PSDiagnostics
+Function        T:
+Function        TabExpansion2
+Function        Test-DscConfiguration                              PSDesiredStateConfiguration
+Function        U:
+Function        V:
+Function        W:
+Function        X:
+Function        Y:
+Function        Z:
+Cmdlet          Add-BitsFile                                       BitsTransfer
+Cmdlet          Add-Computer                                       Microsoft.PowerShell.Management
+Cmdlet          Add-Content                                        Microsoft.PowerShell.Management
+Cmdlet          Add-History                                        Microsoft.PowerShell.Core
+Cmdlet          Add-JobTrigger                                     PSScheduledJob
+Cmdlet          Add-Member                                         Microsoft.PowerShell.Utility
+Cmdlet          Add-PSSnapin                                       Microsoft.PowerShell.Core
+Cmdlet          Add-Type                                           Microsoft.PowerShell.Utility
+Cmdlet          Checkpoint-Computer                                Microsoft.PowerShell.Management
+Cmdlet          Clear-Content                                      Microsoft.PowerShell.Management
+Cmdlet          Clear-EventLog                                     Microsoft.PowerShell.Management
+Cmdlet          Clear-History                                      Microsoft.PowerShell.Core
+Cmdlet          Clear-Item                                         Microsoft.PowerShell.Management
+Cmdlet          Clear-ItemProperty                                 Microsoft.PowerShell.Management
+Cmdlet          Clear-Variable                                     Microsoft.PowerShell.Utility
+Cmdlet          Compare-Object                                     Microsoft.PowerShell.Utility
+Cmdlet          Complete-BitsTransfer                              BitsTransfer
+Cmdlet          Complete-Transaction                               Microsoft.PowerShell.Management
+Cmdlet          Connect-PSSession                                  Microsoft.PowerShell.Core
+Cmdlet          Connect-WSMan                                      Microsoft.WSMan.Management
+Cmdlet          ConvertFrom-Csv                                    Microsoft.PowerShell.Utility
+Cmdlet          ConvertFrom-Json                                   Microsoft.PowerShell.Utility
+Cmdlet          ConvertFrom-SecureString                           Microsoft.PowerShell.Security
+Cmdlet          ConvertFrom-StringData                             Microsoft.PowerShell.Utility
+Cmdlet          Convert-Path                                       Microsoft.PowerShell.Management
+Cmdlet          ConvertTo-Csv                                      Microsoft.PowerShell.Utility
+Cmdlet          ConvertTo-Html                                     Microsoft.PowerShell.Utility
+Cmdlet          ConvertTo-Json                                     Microsoft.PowerShell.Utility
+Cmdlet          ConvertTo-SecureString                             Microsoft.PowerShell.Security
+Cmdlet          ConvertTo-Xml                                      Microsoft.PowerShell.Utility
+Cmdlet          Copy-Item                                          Microsoft.PowerShell.Management
+Cmdlet          Copy-ItemProperty                                  Microsoft.PowerShell.Management
+Cmdlet          Debug-Process                                      Microsoft.PowerShell.Management
+Cmdlet          Disable-ComputerRestore                            Microsoft.PowerShell.Management
+Cmdlet          Disable-JobTrigger                                 PSScheduledJob
+Cmdlet          Disable-PSBreakpoint                               Microsoft.PowerShell.Utility
+Cmdlet          Disable-PSRemoting                                 Microsoft.PowerShell.Core
+Cmdlet          Disable-PSSessionConfiguration                     Microsoft.PowerShell.Core
+Cmdlet          Disable-ScheduledJob                               PSScheduledJob
+Cmdlet          Disable-WSManCredSSP                               Microsoft.WSMan.Management
+Cmdlet          Disconnect-PSSession                               Microsoft.PowerShell.Core
+Cmdlet          Disconnect-WSMan                                   Microsoft.WSMan.Management
+Cmdlet          Enable-ComputerRestore                             Microsoft.PowerShell.Management
+Cmdlet          Enable-JobTrigger                                  PSScheduledJob
+Cmdlet          Enable-PSBreakpoint                                Microsoft.PowerShell.Utility
+Cmdlet          Enable-PSRemoting                                  Microsoft.PowerShell.Core
+Cmdlet          Enable-PSSessionConfiguration                      Microsoft.PowerShell.Core
+Cmdlet          Enable-ScheduledJob                                PSScheduledJob
+Cmdlet          Enable-WSManCredSSP                                Microsoft.WSMan.Management
+Cmdlet          Enter-PSSession                                    Microsoft.PowerShell.Core
+Cmdlet          Exit-PSSession                                     Microsoft.PowerShell.Core
+Cmdlet          Export-Alias                                       Microsoft.PowerShell.Utility
+Cmdlet          Export-BinaryMiLog                                 CimCmdlets
+Cmdlet          Export-Clixml                                      Microsoft.PowerShell.Utility
+Cmdlet          Export-Console                                     Microsoft.PowerShell.Core
+Cmdlet          Export-Counter                                     Microsoft.PowerShell.Diagnostics
+Cmdlet          Export-Csv                                         Microsoft.PowerShell.Utility
+Cmdlet          Export-FormatData                                  Microsoft.PowerShell.Utility
+Cmdlet          Export-ModuleMember                                Microsoft.PowerShell.Core
+Cmdlet          Export-PSSession                                   Microsoft.PowerShell.Utility
+Cmdlet          ForEach-Object                                     Microsoft.PowerShell.Core
+Cmdlet          Format-Custom                                      Microsoft.PowerShell.Utility
+Cmdlet          Format-List                                        Microsoft.PowerShell.Utility
+Cmdlet          Format-Table                                       Microsoft.PowerShell.Utility
+Cmdlet          Format-Wide                                        Microsoft.PowerShell.Utility
+Cmdlet          Get-Acl                                            Microsoft.PowerShell.Security
+Cmdlet          Get-Alias                                          Microsoft.PowerShell.Utility
+Cmdlet          Get-AppLockerFileInformation                       AppLocker
+Cmdlet          Get-AppLockerPolicy                                AppLocker
+Cmdlet          Get-AuthenticodeSignature                          Microsoft.PowerShell.Security
+Cmdlet          Get-BitsTransfer                                   BitsTransfer
+Cmdlet          Get-ChildItem                                      Microsoft.PowerShell.Management
+Cmdlet          Get-CimAssociatedInstance                          CimCmdlets
+Cmdlet          Get-CimClass                                       CimCmdlets
+Cmdlet          Get-CimInstance                                    CimCmdlets
+Cmdlet          Get-CimSession                                     CimCmdlets
+Cmdlet          Get-Command                                        Microsoft.PowerShell.Core
+Cmdlet          Get-ComputerRestorePoint                           Microsoft.PowerShell.Management
+Cmdlet          Get-Content                                        Microsoft.PowerShell.Management
+Cmdlet          Get-ControlPanelItem                               Microsoft.PowerShell.Management
+Cmdlet          Get-Counter                                        Microsoft.PowerShell.Diagnostics
+Cmdlet          Get-Credential                                     Microsoft.PowerShell.Security
+Cmdlet          Get-Culture                                        Microsoft.PowerShell.Utility
+Cmdlet          Get-Date                                           Microsoft.PowerShell.Utility
+Cmdlet          Get-Event                                          Microsoft.PowerShell.Utility
+Cmdlet          Get-EventLog                                       Microsoft.PowerShell.Management
+Cmdlet          Get-EventSubscriber                                Microsoft.PowerShell.Utility
+Cmdlet          Get-ExecutionPolicy                                Microsoft.PowerShell.Security
+Cmdlet          Get-FormatData                                     Microsoft.PowerShell.Utility
+Cmdlet          Get-Help                                           Microsoft.PowerShell.Core
+Cmdlet          Get-History                                        Microsoft.PowerShell.Core
+Cmdlet          Get-Host                                           Microsoft.PowerShell.Utility
+Cmdlet          Get-HotFix                                         Microsoft.PowerShell.Management
+Cmdlet          Get-Item                                           Microsoft.PowerShell.Management
+Cmdlet          Get-ItemProperty                                   Microsoft.PowerShell.Management
+Cmdlet          Get-Job                                            Microsoft.PowerShell.Core
+Cmdlet          Get-JobTrigger                                     PSScheduledJob
+Cmdlet          Get-Location                                       Microsoft.PowerShell.Management
+Cmdlet          Get-Member                                         Microsoft.PowerShell.Utility
+Cmdlet          Get-Module                                         Microsoft.PowerShell.Core
+Cmdlet          Get-PfxCertificate                                 Microsoft.PowerShell.Security
+Cmdlet          Get-Process                                        Microsoft.PowerShell.Management
+Cmdlet          Get-PSBreakpoint                                   Microsoft.PowerShell.Utility
+Cmdlet          Get-PSCallStack                                    Microsoft.PowerShell.Utility
+Cmdlet          Get-PSDrive                                        Microsoft.PowerShell.Management
+Cmdlet          Get-PSProvider                                     Microsoft.PowerShell.Management
+Cmdlet          Get-PSSession                                      Microsoft.PowerShell.Core
+Cmdlet          Get-PSSessionConfiguration                         Microsoft.PowerShell.Core
+Cmdlet          Get-PSSnapin                                       Microsoft.PowerShell.Core
+Cmdlet          Get-Random                                         Microsoft.PowerShell.Utility
+Cmdlet          Get-ScheduledJob                                   PSScheduledJob
+Cmdlet          Get-ScheduledJobOption                             PSScheduledJob
+Cmdlet          Get-Service                                        Microsoft.PowerShell.Management
+Cmdlet          Get-TraceSource                                    Microsoft.PowerShell.Utility
+Cmdlet          Get-Transaction                                    Microsoft.PowerShell.Management
+Cmdlet          Get-TroubleshootingPack                            TroubleshootingPack
+Cmdlet          Get-TypeData                                       Microsoft.PowerShell.Utility
+Cmdlet          Get-UICulture                                      Microsoft.PowerShell.Utility
+Cmdlet          Get-Unique                                         Microsoft.PowerShell.Utility
+Cmdlet          Get-Variable                                       Microsoft.PowerShell.Utility
+Cmdlet          Get-WinEvent                                       Microsoft.PowerShell.Diagnostics
+Cmdlet          Get-WmiObject                                      Microsoft.PowerShell.Management
+Cmdlet          Get-WSManCredSSP                                   Microsoft.WSMan.Management
+Cmdlet          Get-WSManInstance                                  Microsoft.WSMan.Management
+Cmdlet          Group-Object                                       Microsoft.PowerShell.Utility
+Cmdlet          Import-Alias                                       Microsoft.PowerShell.Utility
+Cmdlet          Import-BinaryMiLog                                 CimCmdlets
+Cmdlet          Import-Clixml                                      Microsoft.PowerShell.Utility
+Cmdlet          Import-Counter                                     Microsoft.PowerShell.Diagnostics
+Cmdlet          Import-Csv                                         Microsoft.PowerShell.Utility
+Cmdlet          Import-LocalizedData                               Microsoft.PowerShell.Utility
+Cmdlet          Import-Module                                      Microsoft.PowerShell.Core
+Cmdlet          Import-PSSession                                   Microsoft.PowerShell.Utility
+Cmdlet          Invoke-CimMethod                                   CimCmdlets
+Cmdlet          Invoke-Command                                     Microsoft.PowerShell.Core
+Cmdlet          Invoke-Expression                                  Microsoft.PowerShell.Utility
+Cmdlet          Invoke-History                                     Microsoft.PowerShell.Core
+Cmdlet          Invoke-Item                                        Microsoft.PowerShell.Management
+Cmdlet          Invoke-RestMethod                                  Microsoft.PowerShell.Utility
+Cmdlet          Invoke-TroubleshootingPack                         TroubleshootingPack
+Cmdlet          Invoke-WebRequest                                  Microsoft.PowerShell.Utility
+Cmdlet          Invoke-WmiMethod                                   Microsoft.PowerShell.Management
+Cmdlet          Invoke-WSManAction                                 Microsoft.WSMan.Management
+Cmdlet          Join-Path                                          Microsoft.PowerShell.Management
+Cmdlet          Limit-EventLog                                     Microsoft.PowerShell.Management
+Cmdlet          Measure-Command                                    Microsoft.PowerShell.Utility
+Cmdlet          Measure-Object                                     Microsoft.PowerShell.Utility
+Cmdlet          Move-Item                                          Microsoft.PowerShell.Management
+Cmdlet          Move-ItemProperty                                  Microsoft.PowerShell.Management
+Cmdlet          New-Alias                                          Microsoft.PowerShell.Utility
+Cmdlet          New-AppLockerPolicy                                AppLocker
+Cmdlet          New-CimInstance                                    CimCmdlets
+Cmdlet          New-CimSession                                     CimCmdlets
+Cmdlet          New-CimSessionOption                               CimCmdlets
+Cmdlet          New-Event                                          Microsoft.PowerShell.Utility
+Cmdlet          New-EventLog                                       Microsoft.PowerShell.Management
+Cmdlet          New-Item                                           Microsoft.PowerShell.Management
+Cmdlet          New-ItemProperty                                   Microsoft.PowerShell.Management
+Cmdlet          New-JobTrigger                                     PSScheduledJob
+Cmdlet          New-Module                                         Microsoft.PowerShell.Core
+Cmdlet          New-ModuleManifest                                 Microsoft.PowerShell.Core
+Cmdlet          New-Object                                         Microsoft.PowerShell.Utility
+Cmdlet          New-PSDrive                                        Microsoft.PowerShell.Management
+Cmdlet          New-PSSession                                      Microsoft.PowerShell.Core
+Cmdlet          New-PSSessionConfigurationFile                     Microsoft.PowerShell.Core
+Cmdlet          New-PSSessionOption                                Microsoft.PowerShell.Core
+Cmdlet          New-PSTransportOption                              Microsoft.PowerShell.Core
+Cmdlet          New-PSWorkflowExecutionOption                      PSWorkflow
+Cmdlet          New-ScheduledJobOption                             PSScheduledJob
+Cmdlet          New-Service                                        Microsoft.PowerShell.Management
+Cmdlet          New-TimeSpan                                       Microsoft.PowerShell.Utility
+Cmdlet          New-Variable                                       Microsoft.PowerShell.Utility
+Cmdlet          New-WebServiceProxy                                Microsoft.PowerShell.Management
+Cmdlet          New-WinEvent                                       Microsoft.PowerShell.Diagnostics
+Cmdlet          New-WSManInstance                                  Microsoft.WSMan.Management
+Cmdlet          New-WSManSessionOption                             Microsoft.WSMan.Management
+Cmdlet          Out-Default                                        Microsoft.PowerShell.Core
+Cmdlet          Out-File                                           Microsoft.PowerShell.Utility
+Cmdlet          Out-GridView                                       Microsoft.PowerShell.Utility
+Cmdlet          Out-Host                                           Microsoft.PowerShell.Core
+Cmdlet          Out-Null                                           Microsoft.PowerShell.Core
+Cmdlet          Out-Printer                                        Microsoft.PowerShell.Utility
+Cmdlet          Out-String                                         Microsoft.PowerShell.Utility
+Cmdlet          Pop-Location                                       Microsoft.PowerShell.Management
+Cmdlet          Push-Location                                      Microsoft.PowerShell.Management
+Cmdlet          Read-Host                                          Microsoft.PowerShell.Utility
+Cmdlet          Receive-Job                                        Microsoft.PowerShell.Core
+Cmdlet          Receive-PSSession                                  Microsoft.PowerShell.Core
+Cmdlet          Register-CimIndicationEvent                        CimCmdlets
+Cmdlet          Register-EngineEvent                               Microsoft.PowerShell.Utility
+Cmdlet          Register-ObjectEvent                               Microsoft.PowerShell.Utility
+Cmdlet          Register-PSSessionConfiguration                    Microsoft.PowerShell.Core
+Cmdlet          Register-ScheduledJob                              PSScheduledJob
+Cmdlet          Register-WmiEvent                                  Microsoft.PowerShell.Management
+Cmdlet          Remove-BitsTransfer                                BitsTransfer
+Cmdlet          Remove-CimInstance                                 CimCmdlets
+Cmdlet          Remove-CimSession                                  CimCmdlets
+Cmdlet          Remove-Computer                                    Microsoft.PowerShell.Management
+Cmdlet          Remove-Event                                       Microsoft.PowerShell.Utility
+Cmdlet          Remove-EventLog                                    Microsoft.PowerShell.Management
+Cmdlet          Remove-Item                                        Microsoft.PowerShell.Management
+Cmdlet          Remove-ItemProperty                                Microsoft.PowerShell.Management
+Cmdlet          Remove-Job                                         Microsoft.PowerShell.Core
+Cmdlet          Remove-JobTrigger                                  PSScheduledJob
+Cmdlet          Remove-Module                                      Microsoft.PowerShell.Core
+Cmdlet          Remove-PSBreakpoint                                Microsoft.PowerShell.Utility
+Cmdlet          Remove-PSDrive                                     Microsoft.PowerShell.Management
+Cmdlet          Remove-PSSession                                   Microsoft.PowerShell.Core
+Cmdlet          Remove-PSSnapin                                    Microsoft.PowerShell.Core
+Cmdlet          Remove-TypeData                                    Microsoft.PowerShell.Utility
+Cmdlet          Remove-Variable                                    Microsoft.PowerShell.Utility
+Cmdlet          Remove-WmiObject                                   Microsoft.PowerShell.Management
+Cmdlet          Remove-WSManInstance                               Microsoft.WSMan.Management
+Cmdlet          Rename-Computer                                    Microsoft.PowerShell.Management
+Cmdlet          Rename-Item                                        Microsoft.PowerShell.Management
+Cmdlet          Rename-ItemProperty                                Microsoft.PowerShell.Management
+Cmdlet          Reset-ComputerMachinePassword                      Microsoft.PowerShell.Management
+Cmdlet          Resolve-Path                                       Microsoft.PowerShell.Management
+Cmdlet          Restart-Computer                                   Microsoft.PowerShell.Management
+Cmdlet          Restart-Service                                    Microsoft.PowerShell.Management
+Cmdlet          Restore-Computer                                   Microsoft.PowerShell.Management
+Cmdlet          Resume-BitsTransfer                                BitsTransfer
+Cmdlet          Resume-Job                                         Microsoft.PowerShell.Core
+Cmdlet          Resume-Service                                     Microsoft.PowerShell.Management
+Cmdlet          Save-Help                                          Microsoft.PowerShell.Core
+Cmdlet          Select-Object                                      Microsoft.PowerShell.Utility
+Cmdlet          Select-String                                      Microsoft.PowerShell.Utility
+Cmdlet          Select-Xml                                         Microsoft.PowerShell.Utility
+Cmdlet          Send-MailMessage                                   Microsoft.PowerShell.Utility
+Cmdlet          Set-Acl                                            Microsoft.PowerShell.Security
+Cmdlet          Set-Alias                                          Microsoft.PowerShell.Utility
+Cmdlet          Set-AppLockerPolicy                                AppLocker
+Cmdlet          Set-AuthenticodeSignature                          Microsoft.PowerShell.Security
+Cmdlet          Set-BitsTransfer                                   BitsTransfer
+Cmdlet          Set-CimInstance                                    CimCmdlets
+Cmdlet          Set-Content                                        Microsoft.PowerShell.Management
+Cmdlet          Set-Date                                           Microsoft.PowerShell.Utility
+Cmdlet          Set-DscLocalConfigurationManager                   PSDesiredStateConfiguration
+Cmdlet          Set-ExecutionPolicy                                Microsoft.PowerShell.Security
+Cmdlet          Set-Item                                           Microsoft.PowerShell.Management
+Cmdlet          Set-ItemProperty                                   Microsoft.PowerShell.Management
+Cmdlet          Set-JobTrigger                                     PSScheduledJob
+Cmdlet          Set-Location                                       Microsoft.PowerShell.Management
+Cmdlet          Set-PSBreakpoint                                   Microsoft.PowerShell.Utility
+Cmdlet          Set-PSDebug                                        Microsoft.PowerShell.Core
+Cmdlet          Set-PSSessionConfiguration                         Microsoft.PowerShell.Core
+Cmdlet          Set-ScheduledJob                                   PSScheduledJob
+Cmdlet          Set-ScheduledJobOption                             PSScheduledJob
+Cmdlet          Set-Service                                        Microsoft.PowerShell.Management
+Cmdlet          Set-StrictMode                                     Microsoft.PowerShell.Core
+Cmdlet          Set-TraceSource                                    Microsoft.PowerShell.Utility
+Cmdlet          Set-Variable                                       Microsoft.PowerShell.Utility
+Cmdlet          Set-WmiInstance                                    Microsoft.PowerShell.Management
+Cmdlet          Set-WSManInstance                                  Microsoft.WSMan.Management
+Cmdlet          Set-WSManQuickConfig                               Microsoft.WSMan.Management
+Cmdlet          Show-Command                                       Microsoft.PowerShell.Utility
+Cmdlet          Show-ControlPanelItem                              Microsoft.PowerShell.Management
+Cmdlet          Show-EventLog                                      Microsoft.PowerShell.Management
+Cmdlet          Sort-Object                                        Microsoft.PowerShell.Utility
+Cmdlet          Split-Path                                         Microsoft.PowerShell.Management
+Cmdlet          Start-BitsTransfer                                 BitsTransfer
+Cmdlet          Start-DscConfiguration                             PSDesiredStateConfiguration
+Cmdlet          Start-Job                                          Microsoft.PowerShell.Core
+Cmdlet          Start-Process                                      Microsoft.PowerShell.Management
+Cmdlet          Start-Service                                      Microsoft.PowerShell.Management
+Cmdlet          Start-Sleep                                        Microsoft.PowerShell.Utility
+Cmdlet          Start-Transaction                                  Microsoft.PowerShell.Management
+Cmdlet          Start-Transcript                                   Microsoft.PowerShell.Host
+Cmdlet          Stop-Computer                                      Microsoft.PowerShell.Management
+Cmdlet          Stop-Job                                           Microsoft.PowerShell.Core
+Cmdlet          Stop-Process                                       Microsoft.PowerShell.Management
+Cmdlet          Stop-Service                                       Microsoft.PowerShell.Management
+Cmdlet          Stop-Transcript                                    Microsoft.PowerShell.Host
+Cmdlet          Suspend-BitsTransfer                               BitsTransfer
+Cmdlet          Suspend-Job                                        Microsoft.PowerShell.Core
+Cmdlet          Suspend-Service                                    Microsoft.PowerShell.Management
+Cmdlet          Tee-Object                                         Microsoft.PowerShell.Utility
+Cmdlet          Test-AppLockerPolicy                               AppLocker
+Cmdlet          Test-ComputerSecureChannel                         Microsoft.PowerShell.Management
+Cmdlet          Test-Connection                                    Microsoft.PowerShell.Management
+Cmdlet          Test-ModuleManifest                                Microsoft.PowerShell.Core
+Cmdlet          Test-Path                                          Microsoft.PowerShell.Management
+Cmdlet          Test-PSSessionConfigurationFile                    Microsoft.PowerShell.Core
+Cmdlet          Test-WSMan                                         Microsoft.WSMan.Management
+Cmdlet          Trace-Command                                      Microsoft.PowerShell.Utility
+Cmdlet          Unblock-File                                       Microsoft.PowerShell.Utility
+Cmdlet          Undo-Transaction                                   Microsoft.PowerShell.Management
+Cmdlet          Unregister-Event                                   Microsoft.PowerShell.Utility
+Cmdlet          Unregister-PSSessionConfiguration                  Microsoft.PowerShell.Core
+Cmdlet          Unregister-ScheduledJob                            PSScheduledJob
+Cmdlet          Update-FormatData                                  Microsoft.PowerShell.Utility
+Cmdlet          Update-Help                                        Microsoft.PowerShell.Core
+Cmdlet          Update-List                                        Microsoft.PowerShell.Utility
+Cmdlet          Update-TypeData                                    Microsoft.PowerShell.Utility
+Cmdlet          Use-Transaction                                    Microsoft.PowerShell.Management
+Cmdlet          Wait-Event                                         Microsoft.PowerShell.Utility
+Cmdlet          Wait-Job                                           Microsoft.PowerShell.Core
+Cmdlet          Wait-Process                                       Microsoft.PowerShell.Management
+Cmdlet          Where-Object                                       Microsoft.PowerShell.Core
+Cmdlet          Write-Debug                                        Microsoft.PowerShell.Utility
+Cmdlet          Write-Error                                        Microsoft.PowerShell.Utility
+Cmdlet          Write-EventLog                                     Microsoft.PowerShell.Management
+Cmdlet          Write-Host                                         Microsoft.PowerShell.Utility
+Cmdlet          Write-Output                                       Microsoft.PowerShell.Utility
+Cmdlet          Write-Progress                                     Microsoft.PowerShell.Utility
+Cmdlet          Write-Verbose                                      Microsoft.PowerShell.Utility
+Cmdlet          Write-Warning                                      Microsoft.PowerShell.Utility
+

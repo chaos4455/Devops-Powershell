@@ -1,0 +1,59 @@
+#############################################################################
+#	                                                                        #
+# Notas	                                                                    #
+#===========================================================================#
+# Created with: 	Virtual Studio Code	                                    #
+# Created on:   	28/01/2019 01:06	                                    #
+# Created by:   	Chaos4455 		                                        #
+#===========================================================================#
+# DESCRIÇÃO	                                                                #
+# Este arquivo possui informações de referencia sobre o módulo LocalAccounts#
+#	                                                                        #
+############################################################################# 
+
+#Microsoft.PowerShell.LocalAccounts
+
+Add-LocalGroupMember	
+#Adds members to a local group.
+
+Disable-LocalUser	
+#Disables a local user account.
+
+Enable-LocalUser	
+#Enables a local user account.
+
+Get-LocalGroup	
+#Gets the local security groups.
+
+Get-LocalGroupMember	
+#Gets members from a local group.
+
+Get-LocalUser	
+#Gets local user accounts.
+
+New-LocalGroup	
+#Creates a local security group.
+
+New-LocalUser	
+#Creates a local user account.
+
+Remove-LocalGroup	
+#Deletes local security groups.
+
+Remove-LocalGroupMember	
+#Removes members from a local group.
+
+Remove-LocalUser	
+#Deletes local user accounts.
+
+Rename-LocalGroup	
+#Renames a local security group.
+
+Rename-LocalUser	
+#Renames a local user account.
+
+Set-LocalGroup	
+#Changes a local security group.
+
+Set-LocalUser	
+#Modifies a local user account.

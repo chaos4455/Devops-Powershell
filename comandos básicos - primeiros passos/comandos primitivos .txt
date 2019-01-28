@@ -1,0 +1,21 @@
+#	
+# Notas
+#===========================================================================
+# Created with: 	Virtual Studio Code
+# Created on:   	28/01/2019 00:28
+# Created by:   	Chaos4455 	
+#===========================================================================
+# DESCRIÇÃO
+#	Este arquivo demonstra os comandos primitivos do powershell
+#
+############################################################################
+
+#Comandos primitivos
+
+
+Get — To get something
+Start — To run something
+Out — To output something
+Stop — To stop something that is running
+Set — To define something
+New — To create something

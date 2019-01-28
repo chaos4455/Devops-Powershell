@@ -1,0 +1,29 @@
+#############################################################################
+#	                                                                        #
+# Notas	                                                                    #
+#===========================================================================#
+# Created with: 	Virtual Studio Code	                                    #
+# Created on:   	28/01/2019 01:06	                                    #
+# Created by:   	Chaos4455 		                                        #
+#===========================================================================#
+# DESCRIÇÃO	                                                                #
+# Este arquivo detalha como executar a criação de um usuario local          #
+#	                                                                        #
+############################################################################# 
+
+
+#Cria uma vairavel chamada password e armazena o input em uma string segura
+$Password = Read-Host -AsSecureString
+
+#Cria uma nova conta de usuario local usando a string anterior como password
+
+New-LocalUser "nomedaconta" -Password $Password -FullName "nomecompleto" -Description "descrição"
+
+
+#inserindo o usuario em um novo grupo
+
+Add-LocalGroupMember -Group "Administrators" -Member "nomedosuario"
+
+#Deletando um usuario local
+
+Remove-LocalUser -Name "nomedousuario"

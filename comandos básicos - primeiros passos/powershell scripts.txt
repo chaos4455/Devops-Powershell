@@ -1,0 +1,47 @@
+#############################################################################
+#	                                                                        #
+# Notas	                                                                    #
+#===========================================================================#
+# Created with: 	Virtual Studio Code	                                    #
+# Created on:   	28/01/2019 00:28	                                    #
+# Created by:   	Chaos4455 		                                        #
+#===========================================================================#
+# DESCRIÇÃO	                                                                #
+#	Este arquivo possui informações sobre a criaçção eexeução de scripts    #
+#	                                                                        #
+############################################################################# 
+
+#Scripts são salvos com o formato.ps1
+
+#obter informações sobre politicas de execução de scripts
+
+#Get-ExecutionPolicy
+
+#tipos de politicas
+
+
+
+Restricted— #No scripts are allowed. This is the default setting, so it will display first time when you run the command.
+AllSigned— #You can run scripts signed by a trusted developer. With the help of this setting, a script will ask for confirmation that you want to run it before executing.
+RemoteSigned— #You can run your or scripts signed by a trusted developer.
+Unrestricted— #You can run any script which you wants to run
+
+
+#Alterado a politica de execução
+
+#Executados separadamente
+
+
+Get-ExecutionPolicy
+Set-executionpolicy unrestricted
+#aperte Y se solicitado
+Get-ExecutionPolicy
+
+
+#Exemplo de execução de scripts no powershell 
+
+& "X:\meuscript.ps1"
+
+
+
+
