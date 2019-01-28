@@ -6,9 +6,7 @@
 # Created by:   	Chaos4455 	
 #===========================================================================
 # DESCRIÇÃO
-#	Este arquivo executa o comando get-process e classifica por uso de CPU
+#	Este arquivo popssui um exemplo funcional do comando get-process por hostname
 ############################################################################
-#
-#
-############################################################################
-get-process | where-object { $_.CPU -ge 50 } 
+
+get-process -name nomedoprocesso -ComputerName hostname | Sort-Object -Property CPU -Descending

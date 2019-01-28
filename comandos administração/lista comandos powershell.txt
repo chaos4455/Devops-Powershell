@@ -6,9 +6,24 @@
 # Created by:   	Chaos4455 	
 #===========================================================================
 # DESCRIÇÃO
-#	Este arquivo executa o comando get-process e classifica por uso de CPU
+#	Este arquivo popssui orientação sobre usuarios logados
 ############################################################################
 #
 #
 ############################################################################
-get-process | where-object { $_.CPU -ge 50 } 
+
+"""
+#Exemplo comando set-date para deinir nada
+set-date -date dia/mes/ano
+
+"""
+
+
+
+"""
+
+#Exemplo comando get-process
+get-process -name svchost -ComputerName 2018-pc|
+Sort-Object -Descending -Property -Unique -CaseSensitive
+
+"""
