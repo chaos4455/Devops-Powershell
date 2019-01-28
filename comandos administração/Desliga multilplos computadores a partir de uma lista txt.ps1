@@ -2,11 +2,14 @@
 # Notas
 #===========================================================================
 # Created with: 	Virtual Studio Code
-# Created on:   	26/01/2019 21:31
+# Created on:   	28/01/2019 06:51
 # Created by:   	Chaos4455 	
 #===========================================================================
 # DESCRIÇÃO
-#	Este arquivo popssui um exemplo funcional do comando get-process por hostname
+#	Este arquivo desliga multiplos computadores através de uma lista .txt
 ############################################################################
 
-get-process -name nomedoprocesso -ComputerName Nirvana | Sort-Object -Property CPU -Descending
+#Define uma variavel para o arquivo .txt
+$computadores = Get-Content c:\computadores.txt
+#Ececuta o comando restar para a lista do arquivo .txt
+PS > Restart-Computer -ComputerName $computers -ThrottleLimit

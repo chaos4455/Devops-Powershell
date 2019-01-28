@@ -2,11 +2,11 @@
 # Notas
 #===========================================================================
 # Created with: 	Virtual Studio Code
-# Created on:   	26/01/2019 21:31
+# Created on:   	28/01/2019 06:51
 # Created by:   	Chaos4455 	
 #===========================================================================
 # DESCRIÇÃO
-#	Este arquivo popssui um exemplo funcional do comando get-process por hostname
+#	Este mostra como executar o comando get-command para obter ajuda
 ############################################################################
 
-get-process -name nomedoprocesso -ComputerName Nirvana | Sort-Object -Property CPU -Descending
+get-command comando | format-list
