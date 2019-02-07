@@ -1,4 +1,4 @@
-###Devops Powershell
+# Devops Powershell
 
 Elias Andrade - 2019
 
@@ -12,8 +12,16 @@ Vamos automatizar!!!
 
 ![](https://fee.org/media/29636/automationlove.jpg?center=0.62191780821917808,0.49833333333333335&mode=crop&width=1920&rnd=131783744600000000)
 
+# Exemplos de códigos e sua utilidade
 
-###DEVOPS
+- Exemplo de comando para exibição de processos em execução
+
+```powershell
+Get-Process | Sort CPU -descending | Select -first 5 -Property ID,ProcessName,CPU | format-table -autosize
+``` 
+
+
+# DEVOPS
 
 Cultura DEVOPS:
 
