@@ -1,0 +1,8 @@
+{
+    "workbench.colorCustomizations": {
+        "activityBar.background": "#15341A",
+        "titleBar.activeBackground": "#1E4924",
+        "titleBar.activeForeground": "#F7FCF7"
+    },
+    "python.linting.pylintEnabled": true
+}

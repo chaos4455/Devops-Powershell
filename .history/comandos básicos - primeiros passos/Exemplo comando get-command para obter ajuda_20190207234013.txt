@@ -1,0 +1,4 @@
+#Comando para obter ajuda completa sobre o módulo defender no powershell do windows 10
+GET-COMMAND -MODULE DEFENDER
+
+GET-COMMAND get-process

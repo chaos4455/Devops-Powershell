@@ -1,0 +1,2 @@
+Get-Service -ServiceName * | Sort-Object -Property CanShutdown -Descending | Format-List
+

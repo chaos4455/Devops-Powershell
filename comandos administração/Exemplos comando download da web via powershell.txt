@@ -1,0 +1,6 @@
+#Exemplos de comandos para downloads de pacotes ou arquivos da web via powershell
+powershell -Command "(New-Object Net.WebClient).DownloadFile('http://www.example.com/package.zip', 'package.zip')"
+
+powershell -Command "Invoke-WebRequest http://www.example.com/package.zip -OutFile package.zip"
+
+(New-Object Net.WebClient).DownloadFile('https://download.sysinternals.com/files/PSTools.zip', 'package.zip')

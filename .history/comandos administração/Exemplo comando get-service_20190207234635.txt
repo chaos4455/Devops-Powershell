@@ -1,0 +1,3 @@
+Get-Service -ServiceName * | Sort-Object -Property CanShutdown -Descending | Format-List
+
+Get-Service -ServiceName * | Sort-Object Status -Descending -Culture| Format-List

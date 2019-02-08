@@ -1,0 +1,4 @@
+#Comando para obter ajuda completa sobre o módulo defender no powershell do windows 10
+PS C:\Windows\Temp> GET-COMMAND -MODULE DEFENDER
+
+PS C:\Windows\Temp> GET-COMMAND -MODULE DEFENDER
