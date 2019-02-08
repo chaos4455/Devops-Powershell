@@ -9,4 +9,4 @@
 #	Este mostra como executar o comando get-command para obter ajuda
 ############################################################################
 
-get-command comando | format-list
+get-command get-process | format-list
