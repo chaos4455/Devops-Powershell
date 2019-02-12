@@ -1,0 +1,31 @@
+#	
+# Notas
+#===========================================================================
+# Created with: 	Virtual Studio Code
+# Created on:   	12/02/2019 12:08
+# Created by:   	Chaos4455 	
+#===========================================================================
+# DESCRIÇÃO
+#	Este arquivo possui uma lista com detalhes e informações sobre o uso dos comandos de módulos para powershell
+############################################################################
+
+Get-Module
+
+Get-Module -All
+
+Get-Module -ListAvailable
+
+Get-Module -ListAvailable -All
+
+Get-InstalledModule
+
+--
+
+#You can load a particular module by executing the following command:
+Import-Module -Name ModuleName
+
+
+
+
+#To list commands in a particular module, execute the following command:
+Get-Command -Module ModuleName

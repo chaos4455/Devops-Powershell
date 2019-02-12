@@ -1,0 +1,21 @@
+#	
+# Notas
+#===========================================================================
+# Created with: 	Virtual Studio Code
+# Created on:   	12/02/2019 12:08
+# Created by:   	Chaos4455 	
+#===========================================================================
+# DESCRIÇÃO
+#	Este arquivo possui orientação e exemplo de como executar chamadas de sessão remota no powershell
+############################################################################
+
+$S = New-PSSession -ComputerName MyDomainConroller
+Import-Module -PSsession $S -Name ActiveDirectory
+
+
+$S = New-PSSession -ComputerName MyDomainController
+Export-PSsession -Session $S -Module ActiveDirectory -OutputModule RemoteAD
+Remove-PSSession -Session $S
+Import-Module RemoteAD
+
+
