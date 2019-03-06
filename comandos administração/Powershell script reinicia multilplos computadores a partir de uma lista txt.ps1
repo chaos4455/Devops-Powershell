@@ -6,10 +6,10 @@
 # Created by:   	Chaos4455 	
 #===========================================================================
 # DESCRIÇÃO
-#	Este arquivo desliga multiplos computadores através de uma lista .txt
+#	Este arquivo reinicia  multiplos computadores através de uma lista .txt
 ############################################################################
 
 #Define uma variavel para o arquivo .txt
 $computadores = Get-Content c:\computadores.txt
-#Ececuta o comando restar para a lista do arquivo .txt
+#Ececuta o comando restart para a lista do arquivo .txt
 PS > Restart-Computer -ComputerName $computers -ThrottleLimit
