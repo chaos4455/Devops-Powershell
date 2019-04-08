@@ -1,0 +1,3 @@
+set-executionpolicy remotesigned
+
+Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V -All

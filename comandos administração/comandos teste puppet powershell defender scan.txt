@@ -1,0 +1,8 @@
+start-mpscan
+
+
+Start-MpScan -InformationAction Inquire
+
+
+Start-MpScan -InformationAction Stop
+

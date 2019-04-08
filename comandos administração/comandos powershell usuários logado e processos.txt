@@ -1,0 +1,12 @@
+Get-WmiObject -Class win32_computersystem
+
+--
+
+get-process -includeusername
+
+--
+#Lista usuários logado no sistema
+Get-Process -IncludeUserName | Select-Object -Unique -Property UserName
+
+--
+

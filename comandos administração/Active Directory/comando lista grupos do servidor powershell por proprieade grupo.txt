@@ -1,0 +1,1 @@
+Get-ADGroup -Server servidor_205 | Sort-Object -Property groupscopename | format-table
