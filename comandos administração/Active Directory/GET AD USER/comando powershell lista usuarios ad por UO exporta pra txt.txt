@@ -1,0 +1,9 @@
+Get-ADUser -filter * | Out-File -FilePath c:\usuarios.txt
+
+Get-ADUser -SearchBase "OU=MedicinalMaringa,DC=medicinal,DC=intranet,DC=local" -Filter * | Select sAMAccountName
+
+Get-ADUser -SearchBase "OU=MedicinalMaringa,DC=medicinal,DC=intranet,DC=local" -Filter *
+
+--
+
+Get-ADUser -SearchBase "OU=MedicinalMaringa,DC=medicinal,DC=intranet,DC=local" -Filter * | Select sAMAccountName | Out-File -FilePath c:\usuarios.txt

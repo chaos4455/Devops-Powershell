@@ -1,0 +1,3 @@
+Get-ADUser -Filter * -Properties department | Where-Object {$_.department -Like "it*"} | Select sAMAccountName, department
+
+Get-ADUser -Filter {department -Like "it*"} -Properties department | Select sAMAccountName, department
