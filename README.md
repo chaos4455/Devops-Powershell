@@ -18,52 +18,60 @@ Get-Process | Sort CPU -descending | Select -first 5 -Property ID,ProcessName,CP
 
 Bem-vindo ao meu repositório PowerShell! Aqui você encontrará scripts, tutoriais e dicas relacionadas ao uso do PowerShell em diversas áreas.
 
-## 📁 Tutoriais
+# DevOps PowerShell Repository
 
-### 🌐 Estratégia
-
-- [Estratégias PowerShell](Tutoriais/Estratégia/README.md): Explore estratégias eficazes para otimizar o uso do PowerShell em seus projetos.
-
-### 🔐 Active Directory
-
-- [PowerShell no Active Directory](Tutoriais/Active%20Directory/README.md): Tutoriais e scripts para gerenciamento e automação de tarefas no Active Directory.
-
-### 💻 Usuários/Local
-
-- [PowerShell Local Accounts](Tutoriais/Usuários/Local/README.md): Guia detalhado para lidar com contas locais usando PowerShell.
-
-## 📁 Command Sheets
-
-### ⚙️ Comandos Administração
-
-- [Comandos de Administração PowerShell](Command%20Sheets/Administração/README.md): Lista de comandos úteis para tarefas administrativas comuns.
-
-### 📘 Comandos Básicos
-
-- [Comandos Básicos PowerShell](Command%20Sheets/Básicos/README.md): Conheça os comandos essenciais para começar a trabalhar com PowerShell.
-
-### 🚀 Primeiros Passos - Linux
-
-- [Primeiros Passos com PowerShell no Linux](Command%20Sheets/Primeiros%20Passos/Linux/README.md): Guia para iniciar seu aprendizado de PowerShell no ambiente Linux.
-
-## 📁 Manuais/Veeam
-
-### 📚 Manuais Veeam
-
-- [Manuais Veeam em PowerShell](Manuais/Veeam/README.md): Scripts e guias relacionados ao uso do PowerShell com produtos Veeam.
-
-## 📁 PDFs
-
-- [Documentação em PDF](PDFs/README.md): Documentos e guias em formato PDF relacionados ao PowerShell.
-
-## 📁 Remote Scripting Tutorials
-
-- [Tutoriais de Scripting Remoto](Remote%20Scripting%20Tutorials/README.md): Aprenda a criar scripts PowerShell para execução remota em sistemas.
+Bem-vindo ao meu repositório DevOps PowerShell! Aqui você encontrará scripts, tutoriais e dicas relacionadas ao uso do PowerShell em diversas áreas.
 
 ## 📁 Serviços
 
-- [Scripts para Serviços](Serviços/README.md): Scripts PowerShell para automação e gerenciamento de serviços.
+- [Scripts para Serviços](serviços/README.md): Scripts PowerShell para automação e gerenciamento de serviços.
+
+## 📁 Tutoriais de Scripting
+
+- [Tutoriais de Scripting Remoto](scripting%20tutorials/README.md): Aprenda a criar scripts PowerShell para execução remota em sistemas.
+
+## 📁 Remote
+
+- [Scripts para Execução Remota](remote/README.md): Scripts e tutoriais para executar comandos PowerShell remotamente.
+
+## 📁 PDFs
+
+- [Documentação em PDF](pdfs/README.md): Documentos e guias em formato PDF relacionados ao PowerShell.
+
+## 📁 Manuais Veeam
+
+- [Manuais Veeam em PowerShell](manuais/veeam/README.md): Scripts e guias relacionados ao uso do PowerShell com produtos Veeam.
+
+## 📁 Linux
+
+- [PowerShell no Linux](linux/README.md): Tutoriais e scripts específicos para o uso do PowerShell no ambiente Linux.
+
+## 📁 ISE
+
+- [Scripts para PowerShell ISE](ise/README.md): Scripts e recursos específicos para o PowerShell Integrated Scripting Environment (ISE).
+
+## 📁 Erros
+
+- [Scripts para Tratamento de Erros](erros/README.md): Scripts e dicas para tratamento de erros em scripts PowerShell.
+
+## 📁 Comandos Básicos e Primeiros Passos
+
+- [Comandos Básicos e Primeiros Passos](comandos%20b%C3%A1sicos%20-%20primeiros%20passos/README.md): Lista de comandos essenciais e dicas para iniciantes no PowerShell.
+
+## 📁 Datatypes
+
+- [Tipos de Dados no PowerShell](datatypes/README.md): Informações sobre os tipos de dados usados no PowerShell.
+
+### Tutoriais Específicos
+
+#### Active Directory - User Management
+
+- [Scripts para Gerenciamento de Usuários no Active Directory](active%20directory/Usuarios/Local%20-PowerShell%20LocalAccounts-/README.md): Scripts e tutoriais específicos para gerenciamento de usuários no Active Directory usando contas locais no PowerShell.
+
+#### Tutoriais Estratégia
+
+- [Estratégias PowerShell](Tutoriais/Estratégia/README.md): Explore estratégias eficazes para otimizar o uso do PowerShell em seus projetos.
 
 ---
 
-Espero que este README.md atenda às suas expectativas. Sinta-se à vontade para ajustar conforme necessário. Se precisar de mais alguma coisa, estou à disposição!
+Sinta-se à vontade para ajustar conforme necessário. Se precisar de mais alguma coisa, estou à disposição!
