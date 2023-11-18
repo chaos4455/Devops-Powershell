@@ -3,6 +3,8 @@
 Elias Andrade - 2019 (Atualizado em 18 11 2023
 
 - Este reposítorio tem como propósito servidor de apoio e suporte na busca e centralização de informações utilizadas por mim no dia  a dia de trabalho dentro do ambiente windows e powershell
+- 
+Bem-vindo ao meu repositório PowerShell dedicado a automações, tutoriais e scripts para diversas áreas. Aqui você encontrará desde estratégias avançadas até comandos básicos, todos organizados em pastas temáticas.
 
 
 Vamos automatizar!!! 
@@ -14,11 +16,7 @@ Vamos automatizar!!!
 ```powershell
 Get-Process | Sort CPU -descending | Select -first 5 -Property ID,ProcessName,CPU | format-table -autosize
 ``` 
-# PowerShell Repository
 
-# Devops PowerShell Repository
-
-Bem-vindo ao meu repositório PowerShell dedicado a automações, tutoriais e scripts para diversas áreas. Aqui você encontrará desde estratégias avançadas até comandos básicos, todos organizados em pastas temáticas.
 
 ## 📁 Estratégia
 
