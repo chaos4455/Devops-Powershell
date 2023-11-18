@@ -1,6 +1,6 @@
 # Devops Powershell
 
-Elias Andrade - 2019
+Elias Andrade - 2019 (Atualizado em 18 11 2023
 
 - Este reposítorio tem como propósito servidor de apoio e suporte na busca e centralização de informações utilizadas por mim no dia  a dia de trabalho dentro do ambiente windows e powershell
 
